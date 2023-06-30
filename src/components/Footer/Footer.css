@@ -1,0 +1,124 @@
+.footer-footer{
+    height: 400px;
+    background: url(../img/footer-bg.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.foot-bxbx{
+     background-color: #ffffff;
+     border-radius: 50px;
+     height: 280px;
+     position: absolute;
+     left: 0;
+     top: -35%;
+     z-index: 2;
+     left: 10%;
+     width: 80%;
+}
+.foot-bx{
+    width: 80%;
+    margin: auto;
+    color: black;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.foot-bx p{
+    font-weight: bold;
+    letter-spacing: .8px;
+    font-size: 25px;
+}
+.foot-sub{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(82, 5, 131);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  padding: 5px;
+  width: 100%;
+  overflow: hidden;
+}
+.foot-sub button{
+    color: #fff;
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    height: 65px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+.foot-sub input{
+    width: 60%;
+    border: none;
+    padding-left: 10px;
+     font-weight: bold;
+     font-size: 18px;
+}
+/* ///////////////////////////////////////////////////////////////////// */
+.foot-nav{
+    width: 80%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,0);
+    overflow: hidden;
+}
+.foot-away{ 
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.nav-icon{
+    height: 60px;
+}
+.icon-div a {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.711);
+    background-color: #212121 !important;
+    margin-right: 8px;
+    line-height: 1;
+    position: relative;
+}
+.icon-div a::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    transition: 0.3s;
+    transform: scale(0);
+}
+
+.icon-div a:hover::before {
+    transform: scale(1);
+     background-color: #fff !important;
+}
+
+ .fa-icon {
+        color: white !important;
+        font-size: 16px;
+        font-weight: bold;
+        position: absolute;
+}
+
+.icon-div a:hover .fa-icon {
+    position: absolute;
+    color: #212121 !important;
+}
+.p-end{
+    width: 100%;
+    color: rgb(141, 133, 133);
+    font-weight: 600;
+    display: inline-flex;
+    justify-content: flex-end;
+}

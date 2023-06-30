@@ -1,0 +1,103 @@
+.contact{
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    padding: 60px 0 200px 0;
+    margin-top: 100px;
+}
+.contact-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact-form h2{
+        color: #FFFFFF;
+        font-size: 50px;
+        font-weight: bold;
+}
+.contact-img{
+    margin-top: 25%;
+}
+.contact-img img{
+    width: 100%;
+}
+.contact-form form{
+    margin-top: 8%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.contact-form form input,.contact-form form textarea{
+    background-color: rgba(255, 255, 255, 0.128) !important;
+    height: 68px;
+    border-radius:15px;
+    padding: 18px 26px;
+    border: 1px solid rgba(255, 255, 255, 0.743);
+    outline: none;
+    color: #FFFFFF;
+    transition: .3s ease-in-out;
+    letter-spacing: 0.8px;
+}
+.contact-form form input{
+    min-width: 49%;
+}
+@media (max-width:600px) {
+    .contact-form form input {
+        width: 100%;
+    }
+}
+.contact-form form input:focus,
+.contact-form form textarea:focus {
+    color: #121212;
+     background-color: #FFFFFF  !important;
+}
+.contact-form form input:focus::placeholder,
+.contact-form form textarea:focus::placeholder {
+    color: #121212;
+}
+.contact-form form textarea{
+    width: 100%;
+    height: 200px;
+    border-radius: 18px;
+}
+.contact-form input::placeholder,.contact-form textarea::placeholder{
+    color: #ffffff;
+    font-weight: 500;
+}
+.contact-send{
+    width: 140px;
+    height: 50px;
+    display: block;
+    background-color: #FFFFFF;
+    margin: 5% 0 0 0;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+      display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.contact-send::before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.2s ease-in-out;
+}
+
+.contact-send:active::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black !important;
+    position: absolute;
+    z-index: 1;
+}
+
+.contact-send:active span {
+    position: absolute;
+    z-index: 5;
+    color: #FFFFFF;
+}

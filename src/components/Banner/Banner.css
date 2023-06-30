@@ -1,0 +1,53 @@
+.banner{
+    background:url(../img/banner-bg.png);
+    background-size: cover;
+    min-height: 700px;
+    padding-bottom: 50px;
+}
+.main{
+    padding-top: 100px;
+    justify-content: space-between;
+}
+.tag-line {
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    font-size: 22px;
+    line-height: 2.5;
+    font-weight: bold;
+    margin-top: 50px;
+    color: white;
+    border: 1px solid white;
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+}
+
+.typing {
+   max-width: 56%;
+    color: white;
+}
+.typewriter{
+        color: rgb(145, 128, 251);
+}
+.typing h1 {
+    margin-top: 20px;
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.typing p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgba(200, 200, 200, 0.898);
+}
+.typing button{
+    font-weight: bold;
+    color: #fff !important;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.banner-img img{
+    width: 100%;
+     margin-top: 40px;
+     animation:shakeY 9s infinite ;
+}
