@@ -7,7 +7,7 @@
     z-index: 99998;
     width: 100%;
     transition: 0.32s ease-in-out;
-    height: 80px;
+    
 }
 .scrolled-nav{
    background-color: rgb(11, 10, 10) !important;
@@ -86,20 +86,21 @@ a .fa-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px 0;
     font-weight: bold;
     background-color: transparent !important;
     color: white !important;
     border: 1px solid white;
     position: relative;
     font-size: 18px;
+    margin-top: 10px;
+    margin-left: 16px
 }
-/* @media(max-width:1000px){
-    .nav-nav{
-        width: 80%;
-        margin: auto;
+ @media(max-width:1200px){
+    .nav-icons , .nav-btn{
+        
+        margin-left: 17%;
     }
-} */
+} 
 .nav-btn::before{
     content: "";
     width: 0%;

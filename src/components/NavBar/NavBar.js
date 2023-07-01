@@ -47,7 +47,7 @@ function NavBar() {
                 <div className="icons-div"> <Nav.Link  href="#">
                     <FaInstagram className="fa-icon"/></Nav.Link></div>
             </div> 
-           <button className='nav-btn ms-3'><span>Let’s Connect</span></button>
+           <button className='nav-btn'><span>Let’s Connect</span></button>
           </Nav>
         </Navbar.Collapse>
       </Container>
